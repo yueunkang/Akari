@@ -1,0 +1,113 @@
+/**
+ * Write CSS code in this file to style your JavaFX user interface
+ *
+ * Note: You must link this file to your scene object by adding the following line of code to the
+ * JavaFX start() method:
+ *   scene.getStylesheets().add("main.css");
+ */
+
+ .clue {
+ -fx-pref-width: 70px;
+ -fx-pref-height: 70px;
+ -fx-font-size: 34px;
+ -fx-text-fill: #ffffff;
+ }
+
+
+ .instructions {
+  -fx-text-fill: #bf3d2c;
+  -font-weight: bold;
+  -fx-font-size: 20px;
+  -fx-alignment: center;
+ }
+
+ .image {
+     width: 1px;
+     height: 1px;
+ }
+
+ .white-text {
+   -fx-text-fill: #ffffff;
+   -fx-font-size: 30px;
+
+ }
+
+ .nextButton {
+   -fx-text-fill: black;
+   -font-weight: bold;
+   -fx-background-color: #99e697;
+   -fx-pref-width: 60px;
+   -fx-pref-height: 30px;
+   -fx-border-radius: 4px;
+   -fx-background-radius: 4px;
+   -fx-font-size: 11px;
+   -fx-alignment: center;
+   -fx-spacing: 5;
+ }
+
+ .prevButton {
+   -fx-text-fill: black;
+   -font-weight: bold;
+   -fx-background-color: #9ae1ed;
+   -fx-pref-width: 60px;
+   -fx-pref-height: 30px;
+   -fx-border-radius: 4px;
+   -fx-background-radius: 4px;
+   -fx-font-size: 11px;
+   -fx-alignment: center;
+   -fx-spacing: 5;
+
+ }
+
+ .board {
+   -fx-background-color: #bbada1;
+   -fx-padding: 10px;
+ }
+
+ .tile {
+   -fx-pref-width: 70px;
+   -fx-pref-height: 70px;
+   -fx-font-size: 34px;
+   -fx-alignment: center;
+   -fx-text-fill: #ffffff;
+   -fx-background-color: #f1d04c;
+ }
+
+ .randButton {
+   -fx-text-fill: black;
+   -font-weight: bold;
+   -fx-background-color: #f0d551;
+   -fx-pref-width: 60px;
+   -fx-pref-height: 30px;
+   -fx-border-radius: 4px;
+   -fx-background-radius: 4px;
+   -fx-font-size: 11px;
+   -fx-alignment: center;
+   -fx-spacing: 100;
+ }
+
+ .reset {
+   -fx-text-fill: white;
+   -font-weight: bold;
+   -fx-background-color: #d11204;
+   -fx-pref-width: 60px;
+   -fx-pref-height: 30px;
+   -fx-border-radius: 4px;
+   -fx-background-radius: 4px;
+   -fx-font-size: 11px;
+   -fx-alignment: center;
+   -fx-spacing: 100;
+ }
+
+ .numOfPuzzle {
+   -fx-text-fill: black;
+   -font-weight: bold;
+   -fx-background-color: #f7f6f5;
+   -fx-pref-width: 60px;
+   -fx-pref-height: 30px;
+   -fx-border-radius: 10px;
+   -fx-background-radius: 4px;
+   -fx-font-size: 18px;
+   -fx-alignment: center;
+   -fx-spacing: 100;
+ }
